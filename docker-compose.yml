@@ -3,9 +3,9 @@ services:
   node_dev_env:
     image: node:latest
     container_name: node-docker
-    entrypoint: /bin/bash
     working_dir: /home/app
     ports: 
       - 3000:3000
     volumes: 
       - ./:/home/app
+    command: sh -c 'npm install && npm start'

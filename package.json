@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "natural": "^4.0.0",
+    "nltk-stopwords": "^1.0.3",
+    "node-fetch": "^2.6.1",
+    "pycollections": "^0.9.0",
+    "remove-stopwords": "^1.0.3"
+  }
+}
